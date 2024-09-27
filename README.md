@@ -42,6 +42,7 @@ _Ahora para hacer un llamado a la API sera necesario que tengamos ya un entorno 
   
 1. Por ejemplo si alojas tu aplicacion utilizando XAMPP y quieres utilizar un formato json sera necesario utilizar una direccion asi: http://dominio-aplicacion/osticket/upload/api/users.json
 2. Finalmente deberemos ingresar los datos necesarios para la creacion de usuarios, en este caso, en un formato json
+```
    {
     "email": "prueba16@ejemplo.com",
     "full_name": "prueba16",
@@ -50,4 +51,5 @@ _Ahora para hacer un llamado a la API sera necesario que tengamos ya un entorno 
     "password": "123456789",
     "confirm_password": "123456789"
 }
+```
 _Nota: La X en telefono es para agregar la extension del telefono, en este caso 686 son la extension del telefono 123456789_
